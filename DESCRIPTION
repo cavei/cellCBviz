@@ -1,0 +1,16 @@
+Package: cellCBviz
+Type: Package
+Title: Transform and Visualize CELL to CELL networks
+Version: 0.1.0
+Author: Paolo Martini
+Maintainer: Paolo Martini <paolo.cavei@gmail.com>
+Description: Collection of functions that allows visualizing cell to cell interaction networks.
+    You will find mainly function to convert data frames to json.
+License: AGPL-3
+Encoding: UTF-8
+LazyData: true
+RoxygenNote: 6.1.1
+Imports: RColorBrewer, jsonlite, utils
+Remotes: github::cytoscape/cyjShiny
+Suggests: 
+    testthat, cyjShiny

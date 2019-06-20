@@ -1,3 +1,5 @@
 .DS_Store
 .Rbuildignore
 .Rproj.user/
+man/
+cellCBviz.Rproj
